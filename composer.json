@@ -1,0 +1,13 @@
+{
+    "name": "engineyard/php-performance-tools",
+    "description": "A collection of tools to help with PHP performance",
+    "license": "Apache-2.0",
+    "keywords": [
+        "php",
+        "performance"
+    ],
+    "homepage": "http://github.com/engineyard/ey-php-performance-tools",
+    "autoload": {
+        "psr-0": {"EngineYard\\": "src/"}
+    }
+}

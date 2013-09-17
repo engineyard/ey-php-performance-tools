@@ -1,0 +1,16 @@
+<?php
+return [
+    /* Authentication */
+    'auth' => [
+        'enabled' => true,
+        'username' => 'admin',
+        'password' => 'changeme',
+    ],
+    /* Paths to cache (recursively) */
+    'paths' => [
+        __DIR__ .DS. '..' .DS. '..' .DS. '..' .DS. '..' .DS. 'config',
+        __DIR__ .DS. '..' .DS. '..' .DS. '..' .DS. '..' .DS. 'module',
+        __DIR__ .DS. '..' .DS. '..' .DS. '..' .DS. '..' .DS. 'vendor',
+        __DIR__ .DS. '..' .DS. '..' .DS. '..' .DS. '..' .DS. 'public',
+    ]
+];

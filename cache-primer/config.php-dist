@@ -1,0 +1,13 @@
+<?php
+return [
+    /* URLs to cache */
+    'urls' => [
+        'http://example.org/',
+        'http://example.org/user/login',
+        'http://example.org/user/register',
+        'http://example.org/about-us',
+        'http://user:password@example.org/cache-all-classes.php'
+    ],
+    /* How many concurrent HTTP requests to make (requires the pecl_http extension) */
+    'threads' => 4
+];

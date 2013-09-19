@@ -6,8 +6,9 @@ tasks.
 
 ## Tool list
 
-- APC Primer — A tool for priming your APC cache to help avoid a
-    [cache stampede](http://en.wikipedia.org/wiki/Cache_stampede)
+- Cache Primers — These tools help avoid [cache stampedes](http://en.wikipedia.org/wiki/Cache_stampede)
+ - APC Primer — A tool for priming your APC cache
+ - Cache Primer — A tool for priming any HTTP-based cache
 
 ## Installation
 

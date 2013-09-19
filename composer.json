@@ -9,5 +9,8 @@
     "homepage": "http://github.com/engineyard/ey-php-performance-tools",
     "autoload": {
         "psr-0": {"EngineYard\\": "src/"}
-    }
+    },
+    "bin": [
+        "cache-primer/bin/cache-primer"
+    ]
 }

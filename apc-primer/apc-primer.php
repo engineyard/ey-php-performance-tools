@@ -18,7 +18,7 @@ require_once __DIR__ . '/../../../autoload.php';
 $config = require 'config.php';
 
 // Authentication
-if ($config['auth']['enabled'] || isset($_SERVER['PHP_AUTH_USER']))) {
+if ($config['auth']['enabled'] || isset($_SERVER['PHP_AUTH_USER'])) {
     if (!isset($_SERVER['PHP_AUTH_USER']) ||
         !isset($_SERVER['PHP_AUTH_PW']) ||
         $_SERVER['PHP_AUTH_USER'] != $config['auth']['username'] ||
